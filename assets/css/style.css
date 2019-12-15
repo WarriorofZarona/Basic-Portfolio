@@ -1,0 +1,18 @@
+header {
+
+    background: #ffffff;
+
+}
+
+h1 {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+}
+
+.logo {
+    background:#4aaaa5;
+    padding: 20px;
+    float: left;
+    color: white;
+}
