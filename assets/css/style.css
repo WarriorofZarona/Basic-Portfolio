@@ -61,6 +61,13 @@ body {
     
 }
 
+#profilepic {
+
+    float: left;
+    margin-right: 15px;
+
+}
+
 footer {
 
     background: #666666;
