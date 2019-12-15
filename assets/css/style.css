@@ -1,6 +1,7 @@
 header {
 
-    background: #ffffff;
+    background-color: #ffffff;
+    padding: 10px;
 
 }
 
@@ -15,12 +16,19 @@ h1 {
     padding: 20px;
     float: left;
     color: white;
+    
 }
 
 h3 {
 
     float: right;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 body {
 
