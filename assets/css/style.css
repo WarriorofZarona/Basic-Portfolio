@@ -19,9 +19,7 @@ header {
     background-color: #ffffff;
     border-bottom: solid #cccccc;
     max-width: 100%;
-    margin: 0 auto;
     height: 85px;
-    overflow-x: hidden;
 
 }
 
@@ -164,10 +162,16 @@ footer {
     color: lightgray;
     text-align: center;
     font-size: x-small;
-    width: 100%;
+    max-width: 100%;
+
+}
+
+#indexfooter {
+
     position: fixed;
     left: 0;
     bottom: 0;
+    width: 100%
 
 }
 
