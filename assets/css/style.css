@@ -22,10 +22,29 @@ h1 {
     
 }
 
+
+a:link {
+    text-decoration: none;
+    color: #777777;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: 
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
 h3 {
 
     float: right;
     margin-right: 10px;
+    margin-top: 43px;
 }
 
 .spacer {
@@ -43,6 +62,9 @@ h3 {
     background: #ffffff;
     padding: 20px;
     border: 1px solid #dddddd;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
     
   }
 
@@ -82,6 +104,8 @@ footer {
     color: lightgray;
     text-align: center;
     font-size: x-small;
+    grid-row-start: 2;
+    grid-row-end: 3;
 
 }
 
@@ -206,3 +230,7 @@ input {
 
 
 }
+
+html {
+    height: 100%;
+  }
