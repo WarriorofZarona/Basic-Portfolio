@@ -18,6 +18,7 @@ h1 {
     float: left;
     color: white;
     margin-bottom: -10px;
+    margin-left: 0 auto;
     
 }
 
@@ -77,6 +78,52 @@ footer {
     color: lightgray;
     text-align: center;
     font-size: x-small;
-    margin-bottom:
+
+}
+
+h5 {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    background: #4aaaa5;
+    color:#ffffff;
+}
+
+.images {
+
+    width: 225px;
+height: 150px;
+margin: 10px;
+float: left;
+
+
+}
+
+.hangman {
+
+    position: relative;
+    margin: 10px;
+}
+
+ #hangman {
+
+        position: absolute;
+        text-align: center;    
+        top: 80px;
+        left: 10px;
+        padding: 10px 66.5px;
+ }
+.rpg {
+
+    position: relative;
+    margin: 10px;
+}
+
+#rpg {
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    left: 255px;
+    padding: 10px 59px;
 
 }
