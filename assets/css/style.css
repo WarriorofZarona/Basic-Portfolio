@@ -1,8 +1,11 @@
 header {
 
     background-color: #ffffff;
-    padding: 10px 10px 10px 10px;
     border-bottom: solid #cccccc;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 85px;
+    overflow-x: hidden;
 
 }
 
@@ -15,10 +18,12 @@ h1 {
 #logo {
     background:#4aaaa5;
     padding: 20px;
-    float: left;
+    position: absolute;
+    top: -4px;
+    left: 162px;
+
     color: white;
-    margin-bottom: -10px;
-    margin-left: -10px;
+    margin-bottom: 0px;
     
 }
 
@@ -42,14 +47,10 @@ a:link {
   }
 h3 {
 
-    float: right;
-    margin-right: 10px;
-    margin-top: 43px;
+    position: absolute;
+    top: 25px;
+    right: 170px;
 }
-
-.spacer {
-     text-indent: 1em;
-    }
 
 .clearfix::after {
     content: "";
@@ -60,11 +61,15 @@ h3 {
   .content {
 
     background: #ffffff;
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #dddddd;
     min-height: 100%;
     display: grid;
     grid-template-rows: 1fr auto;
+    width: 960px;
+    position: static;
+    margin-left: 11.5%;
+    
     
   }
 
@@ -81,9 +86,6 @@ body {
     background-color: #ffffff;
     background-image: url("../images/background.png");
     color: #777777;
-    width: 960px;
-    margin-left: 15%;
-    margin-right: 15%;
     
     
 }
@@ -106,6 +108,9 @@ footer {
     font-size: x-small;
     grid-row-start: 2;
     grid-row-end: 3;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
 
 }
 
