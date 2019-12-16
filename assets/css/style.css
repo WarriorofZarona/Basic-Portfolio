@@ -1,3 +1,8 @@
+
+html {
+    height: 100%;
+  }
+
 header {
 
     background-color: #ffffff;
@@ -34,7 +39,7 @@ a:link {
   
   a:visited {
     text-decoration: none;
-    color: 
+    color: #777777
   }
   
   a:hover {
@@ -43,14 +48,59 @@ a:link {
   
   a:active {
     text-decoration: underline;
-  }
+  
+}
 
 
-h3 {
+#about {
 
     position: absolute;
-    top: 25px;
+    top: 45px;
+    right: 400px;
+    font-size: medium;
+}
+
+#portfolio {
+
+    position: absolute;
+    top: 45px;
+    right: 300px;
+    font-size: medium;
+}
+
+#contact {
+
+    position: absolute;
+    top: 45px;
     right: 200px;
+    font-size: medium;
+}
+
+
+
+.seperator1 {
+
+    color: lightgray;
+    position: absolute;
+    top: 45px;
+    right: 375px;
+    font-size: medium;
+
+}
+
+.seperator2 {
+
+    color: lightgray;
+    position: absolute;
+    top: 45px;
+    right: 275px;
+    font-size: medium;
+
+}
+
+.indent {
+
+    text-indent: 5em;
 }
 
 .clearfix::after {
@@ -59,13 +109,23 @@ h3 {
     display: table;
   }
 
+  body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    background-image: url("../images/background.png");
+    color: #777777;
+    height: 100%;
+       
+}
   .content {
 
     background: #ffffff;
     padding: 30px;
     border: 1px solid #dddddd;
-    width: 930px;
+    width: 929px;
     margin-left: 11.5%;
+    margin-bottom: 30px;
     
     
   }
@@ -78,15 +138,7 @@ margin-top: -10px;
 
   }
 
-body {
 
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
-    background-image: url("../images/background.png");
-    color: #777777;
-    
-    
-}
 
 #profilepic {
 
@@ -105,17 +157,12 @@ body {
 footer {
 
     background: #666666;
-    text-align: center-bottom;
     border-top: 8px solid #4aaaa5;
     padding: 30px 15px 5px 15px;
     color: lightgray;
     text-align: center;
     font-size: x-small;
-    grid-row-start: 2;
-    grid-row-end: 3;
     max-width: 100%;
-    margin: 0 auto;
-    overflow-x: hidden;
 
 }
 
@@ -220,7 +267,7 @@ input {
 #message {
     
     width:100%;
-    padding: 100px 5px;
+    padding: 5px 5px 100px 5px;
     margin-top: 5px;
 }
 
@@ -240,7 +287,3 @@ input {
 
 
 }
-
-html {
-    height: 100%;
-  }
