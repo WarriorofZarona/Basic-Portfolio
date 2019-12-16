@@ -12,7 +12,7 @@ h1 {
     color:#4aaaa5;
 }
 
-.logo {
+#logo {
     background:#4aaaa5;
     padding: 20px;
     float: left;
@@ -42,10 +42,10 @@ h3 {
     
   }
 
-  .topcontent {
+  #topcontent {
 
 border-bottom: solid #cccccc;
-padding-bottom: 30px;
+padding-bottom: 10px;
 
   }
 
@@ -91,39 +91,82 @@ h5 {
 
 .images {
 
-    width: 225px;
-height: 150px;
+    width: 300px;
+height: 200px;
 margin: 10px;
 float: left;
-
+margin:10px;
 
 }
 
 .hangman {
 
     position: relative;
-    margin: 10px;
-}
+   }
 
  #hangman {
 
         position: absolute;
         text-align: center;    
-        top: 80px;
+        top: 120px;
         left: 10px;
-        padding: 10px 66.5px;
+        padding: 10px 104px;
  }
 .rpg {
 
     position: relative;
-    margin: 10px;
+ 
 }
 
 #rpg {
     position: absolute;
     text-align: center;
-    top: 80px;
-    left: 255px;
-    padding: 10px 59px;
+    top: 120px;
+    left: 330px;
+    padding: 10px 96.5px;
 
+}
+
+.trivia {
+
+    position: relative;
+  
+}
+
+#trivia {
+
+    position: absolute;
+    text-align: center;
+    top: 340px;
+    left: 10px;
+    padding: 10px 93px;
+}
+
+.widget {
+
+    position: relative;
+
+}
+
+#widget {
+
+position: absolute;
+text-align: center;
+top: 340px;
+left: 330px;
+padding: 10px 56px;
+}
+
+.rps {
+
+    position: relative;
+}
+
+#rps {
+
+    position: absolute;
+    text-align: center;
+    top: 555px;
+    left: 10px;
+    padding: 10px 56.5px;
 }
