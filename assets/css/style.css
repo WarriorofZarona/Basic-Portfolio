@@ -21,7 +21,6 @@ h1 {
     position: absolute;
     top: -4px;
     left: 162px;
-
     color: white;
     margin-bottom: 0px;
     
@@ -45,11 +44,13 @@ a:link {
   a:active {
     text-decoration: underline;
   }
+
+
 h3 {
 
     position: absolute;
     top: 25px;
-    right: 170px;
+    right: 200px;
 }
 
 .clearfix::after {
@@ -63,11 +64,7 @@ h3 {
     background: #ffffff;
     padding: 30px;
     border: 1px solid #dddddd;
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: 1fr auto;
-    width: 960px;
-    position: static;
+    width: 930px;
     margin-left: 11.5%;
     
     
@@ -77,6 +74,7 @@ h3 {
 
 border-bottom: solid #cccccc;
 padding-bottom: 10px;
+margin-top: -10px;
 
   }
 
@@ -94,7 +92,14 @@ body {
 
     float: left;
     margin-right: 15px;
+    width: 15%;
+    height: auto;
 
+}
+
+.aboutme {
+
+    overflow: visible;
 }
 
 footer {
