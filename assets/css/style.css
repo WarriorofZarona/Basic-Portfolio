@@ -18,15 +18,19 @@ h1 {
     float: left;
     color: white;
     margin-bottom: -10px;
-    margin-left: 0 auto;
+    margin-left: -10px;
     
 }
 
 h3 {
 
     float: right;
- 
+    margin-right: 10px;
 }
+
+.spacer {
+     text-indent: 1em;
+    }
 
 .clearfix::after {
     content: "";
@@ -169,4 +173,36 @@ padding: 10px 56px;
     top: 555px;
     left: 10px;
     padding: 10px 56.5px;
+}
+
+input {
+
+    width:100%;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+
+#message {
+    
+    width:100%;
+    padding: 100px 5px;
+    margin-top: 5px;
+}
+
+#submit {
+
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 25px;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+    width: 12%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: larger;
+
+
 }
