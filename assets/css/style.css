@@ -11,15 +11,16 @@ body {
     background-image: url("../images/background.png");
     color: #777777;
     height: 100%;
-       
+    margin: 0%;
 }
 
 header {
 
     background-color: #ffffff;
     border-bottom: solid #cccccc;
-    max-width: 100%;
+    width: 100%;
     height: 85px;
+    margin: 0;
 
 }
 
@@ -34,7 +35,7 @@ h1 {
     background:#4aaaa5;
     padding: 20px;
     position: absolute;
-    top: -4px;
+    top: -12px;
     left: 180px;
     color: white;
     margin-bottom: 0px;
