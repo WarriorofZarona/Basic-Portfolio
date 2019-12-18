@@ -91,7 +91,7 @@ a:link {
 
 
 
-.seperator1 {
+#seperator1 {
 
     color: lightgray;
     position: absolute;
@@ -101,7 +101,7 @@ a:link {
 
 }
 
-.seperator2 {
+#seperator2 {
 
     color: lightgray;
     position: absolute;
