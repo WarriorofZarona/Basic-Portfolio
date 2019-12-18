@@ -193,7 +193,7 @@ margin:10px;
 
 }
 
-.hangman {
+.iposition {
 
     position: relative;
    }
@@ -206,11 +206,7 @@ margin:10px;
         left: 10px;
         padding: 10px 104.5px;
  }
-.rpg {
 
-    position: relative;
- 
-}
 
 #rpg {
     position: absolute;
@@ -221,11 +217,6 @@ margin:10px;
 
 }
 
-.trivia {
-
-    position: relative;
-  
-}
 
 #trivia {
 
@@ -236,12 +227,6 @@ margin:10px;
     padding: 10px 93px;
 }
 
-.widget {
-
-    position: relative;
-
-}
-
 #widget {
 
 position: absolute;
@@ -249,11 +234,6 @@ text-align: center;
 top: 120px;
 left: 330px;
 padding: 10px 56.5px;
-}
-
-.rps {
-
-    position: relative;
 }
 
 #rps {
