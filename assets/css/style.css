@@ -1,8 +1,6 @@
 
 html {
     height: 100%;
-    overflow-y: scroll;
-      
   }
 
   
@@ -26,6 +24,16 @@ header {
 
 }
 
+.header {
+
+    height: 85px;
+    width: 930px;
+    padding: 0 30px;
+    position: relative;
+    margin: auto;
+
+}
+
 
 h1 {
 
@@ -37,8 +45,8 @@ h1 {
     background:#4aaaa5;
     padding: 20px;
     position: absolute;
-    top: -12px;
-    left: 180px;
+    bottom: 0;
+    left: 0;
     color: white;
     margin-bottom: 0px;
     
@@ -68,24 +76,24 @@ a:link {
 #about {
 
     position: absolute;
-    top: 45px;
-    right: 380px;
+    top: 42px;
+    right: 200px;
     font-size: medium;
 }
 
 #portfolio {
 
     position: absolute;
-    top: 45px;
-    right: 280px;
+    top: 42px;
+    right: 100px;
     font-size: medium;
 }
 
 #contact {
 
     position: absolute;
-    top: 45px;
-    right: 180px;
+    top: 42px;
+    right: 0px;
     font-size: medium;
 }
 
@@ -95,8 +103,8 @@ a:link {
 
     color: lightgray;
     position: absolute;
-    top: 45px;
-    right: 355px;
+    top: 42px;
+    right: 175px;
     font-size: medium;
 
 }
@@ -105,8 +113,8 @@ a:link {
 
     color: lightgray;
     position: absolute;
-    top: 45px;
-    right: 255px;
+    top: 42px;
+    right: 75px;
     font-size: medium;
 
 }
